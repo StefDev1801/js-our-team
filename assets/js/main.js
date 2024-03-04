@@ -31,8 +31,20 @@ const team = [
       image: 'barbara-ramos-graphic-designer.jpg',
     },
   ];
-  //MILESTONE 1:
-for (let i = 0; i < team.length; i++) {
+
+//MILESTONE 1:
+//mi vado a mettere in relazione alla row nell'html
+let row = document.querySelector('.row')
+
+for (let i = 0; i < team.length; i++) { 
+    //ciclo nell array di oggetti
     const worker = team[i];
+    //guardo per ogni singolo dipendente quale sia il nome, il ruolo e l'immagine associata
     console.log(worker.name,worker.role,worker.image);
+    
+    //MILESTONE 2:
+    //creo markup da inserire dentro l'html
+    let markupHtml = `<div class="col-4">${worker.name},${worker.role},${worker.image}</div>`
+    row.insertAdjacentHTML("beforeend",markupHtml);
+
 }

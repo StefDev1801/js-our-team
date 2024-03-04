@@ -17,3 +17,7 @@ console.log() è nostro amico.Buon lavoro!
 <!-- stampare su console le informazioni di nome, ruolo e la stringa della foto -->
 - ciclo for per 'guardare all'interno dell'array' i singoli dipendenti
 - poi log per guardare dei singoli dipendenti il nome, il ruolo e la stringa della foto
+<!-- stampare le stesse informazioni su DOM sottoforma di stringhe -->
+- crea container in html e selezionalo tramite una variabile in js
+- crea markup da inserire dentro container in js
+--- prova ad inserire il markup
