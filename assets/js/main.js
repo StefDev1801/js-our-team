@@ -47,7 +47,13 @@ for (let i = 0; i < team.length; i++) {
     
     let markupHtml = 
     `<div class="col-4">
-        <div class="card"><img src="./assets/img/${worker.image}" alt="">${worker.name},${worker.role}</div>
+        <div class="card text-center pb-2">
+            <img src="./assets/img/${worker.image}" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">${worker.name}</h5>
+                <p class="card-text" >${worker.role}</p>
+            </div>
+        </div>
     </div>`
     row.insertAdjacentHTML("beforeend",markupHtml);
 
