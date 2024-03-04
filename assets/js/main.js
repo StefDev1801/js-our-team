@@ -46,11 +46,8 @@ for (let i = 0; i < team.length; i++) {
     //creo markup da inserire dentro l'html
     
     let markupHtml = 
-    `
-    
-    <div class="col-4">
+    `<div class="col-4">
         <div class="card"><img src="./assets/img/${worker.image}" alt="">${worker.name},${worker.role}</div>
-    
     </div>`
     row.insertAdjacentHTML("beforeend",markupHtml);
 
