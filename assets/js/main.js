@@ -31,3 +31,8 @@ const team = [
       image: 'barbara-ramos-graphic-designer.jpg',
     },
   ];
+  //MILESTONE 1:
+for (let i = 0; i < team.length; i++) {
+    const worker = team[i];
+    console.log(worker.name,worker.role,worker.image);
+}
